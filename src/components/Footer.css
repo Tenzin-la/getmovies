@@ -1,0 +1,44 @@
+.footer {
+    color: #f3f3f3;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    height: 250px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 4fr;
+    padding: 20px;
+}
+
+.footer-box
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-box p
+{
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.footer-box p:hover
+{
+    opacity: 0.8;
+}
+
+
+.icons i
+{
+    margin: 0 8px 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.fa-facebook:hover,.fa-twitter:hover
+{
+    color: cornflowerblue;
+}
+
+.fa-youtube:hover, .fa-instagram:hover
+{
+    color: crimson;
+}

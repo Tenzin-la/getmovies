@@ -1,0 +1,70 @@
+.pricing {
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.pricing-table {
+    margin: 60px 20px;
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+}
+
+.price-text
+{
+    margin: 0 22px;
+}
+
+.prices,
+.resolution,
+.quality,
+.numberofdevices,
+.devices {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    padding: 14px;
+}
+
+.prices,
+.resolution {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.mobile,
+.basic,
+.standard,
+.premium {
+    background-color: red;
+    display: grid;
+    place-content: center;
+    margin: 0 30px 10px;
+    position: relative;
+    right: 40%;
+    border-radius: 10px;
+
+}
+
+.mobile {
+    border-bottom-left-radius: 0;
+}
+
+.price-button {
+
+    background-color: #e50813;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding:20px;
+    font-weight: 500;
+    font-size: 20px;
+    margin: auto;
+    height: 4rem;
+    width: 140px;
+    cursor: pointer;
+}
+
+.price-button:hover
+{
+    opacity: 0.8;
+}
