@@ -61,6 +61,58 @@ export default function Pricing() {
 
             </div>
 
+
+            {/* mobile-view  */}
+
+            <div className="mobile-pricing-table">
+
+                <div className="paise price-1">
+                    <h2>
+                        Mobile
+                    </h2>
+                    <div className="prices-content">
+                        Price: 199 <br /><br />
+                        Video Quality: Good <br /><br />
+                        Resolution: 480p <br /><br />
+                        Number of devices:1
+                    </div>
+                </div>
+                <div className="paise price-2">
+                    <h2>
+                        Basic
+                    </h2>
+                    <div className="prices-content">
+                        Price: 499 <br /><br />
+                        Video Quality: Good <br /><br />
+                        Resolution: 720p <br /><br />
+                        Number of devices:1
+                    </div>
+                </div>
+                <div className="paise price-3">
+                    <h2>
+                        Standard
+                    </h2>
+                    <div className="prices-content">
+                        Price: 649 <br /><br />
+                        Video Quality: Better <br /><br />
+                        Resolution: 1080p <br /><br />
+                        Number of devices:2
+                    </div>
+                </div>
+                <div className="paise price-4">
+                    <h2>
+                        Premium
+                    </h2>
+                    <div className="prices-content">
+                        Price: 799 <br /><br />
+                        Video Quality: Best <br /><br />
+                        Resolution: 4k <br /><br />
+                        Number of devices:4
+                    </div>
+                </div>
+
+            </div>
+
             <div className="price-button" onClick={() => navigate('/')}>Buy Now</div>
 
         </div>
