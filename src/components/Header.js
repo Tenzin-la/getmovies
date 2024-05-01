@@ -12,7 +12,7 @@ export default function Header() {
       <div className="container flexSB">
         <nav className="flexSB">
           <div className="logo">
-            <h1>SStream</h1>
+            <h1>FakeFlix</h1>
           </div>
           <ul className={Mobile ? "navMenu-list" : "flexSB"} onClick={() => setMobile(false)}>
             <NavLink to='/'>Home</NavLink>
